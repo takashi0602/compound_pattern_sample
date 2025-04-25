@@ -1,16 +1,19 @@
-# compound_pattern_sample
+# Compound Pattern Sample
 
-A new Flutter project.
+FlutterでCompound Patternを実装するサンプルプロジェクトです。
 
-## Getting Started
+## 環境構築
 
-This project is a starting point for a Flutter application.
+[fvm](https://fvm.app/) を使用します。
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+$ git clone https://github.com/takashi0602/compound_pattern_sample.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+$ cd compound_pattern_sample
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+$ fvm use
+
+$ fvm flutter pub get
+
+$ fvm flutter run
+```
